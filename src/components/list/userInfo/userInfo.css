@@ -1,0 +1,31 @@
+.UserInfo {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.UserInfo .user {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.UserInfo .user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.UserInfo .icons {
+  display: flex;
+  gap: 20px;
+}
+
+.UserInfo .icons img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer
+}
